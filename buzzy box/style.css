@@ -1,0 +1,13 @@
+/* Buzz animation */
+@keyframes buzz {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.buzzing {
+    animation: buzz 0.2s linear infinite;
+    box-shadow: 0 0 20px yellow;
+}
